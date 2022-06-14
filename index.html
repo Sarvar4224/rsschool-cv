@@ -1,14 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
 </head>
 <body>
-    <h1>
-        Akhmedov Sarvarbek
-    </h1>
+    <header class="container">
+        <div class="">
+            <h1> Akhmedov Sarvarbek</h1>
+            <p>Junior Front-end developer</p>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Experience</a></li>
+                    <li><a href="">Code</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <main class="cv">
+    <section class="about">
+      <header class="header">
+        <figure class="photo">
+          <img src="photo.jpg" alt="Akhmedov Sarvar" />
+        </figure>
+      </header>
+      <article class="contacts">
+        <h3 class="contacts__text">contact me</h3>
+        <div class="underlined"></div>
+        <ul class="phone">
+          <li class="phone__icon"><i class="fas fa-phone-volume"></i></li>
+          <li class="phone_number">Discord : @Sarvar4224#0870</li>
+        </ul>
+        <ul class="skype">
+          <li class="skype__icon"><i class="fab fa-skype"></i></li>
+          <li class="skype__nik">@GEniuss_S</li>
+        </ul>
+        <ul class="linkedin">
+          <li class="linkedIn__icon"><i class="fab fa-linkedin"></i></li>
+          <li class="linkedIn__link">
+            <a id="link" href="https://linkedin.com/in/alexander-drozd-2748b31a8">
+              here !
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="skills">
+        <h3 class="contacts__text">skills</h3>
+        <div class="underlined"></div>
+        <ul class="skills_list">
+          <li>HTML5</li>
+          <li>CSS3, SASS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>Node.js</li>
+          <li>OOP</li>
+          <li>Figma</li>
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>English: B2</li>
+        </ul>
+        <div id="work-examples">
+          <h3 class="contacts__text">work examples</h3>
+          <div class="underlined"></div>
+          <nav class="works">
+            <ul>
+              <li>
+                <a href="https://portfolio-drozdfd.netlify.app">Portfolio</a>
+              </li>
+              <li>
+                <a href="https://sarvar4224.github.io/virtual-keyboard/">Virtual Keyboard</a>
+              </li>
+              <li>
+                <a href="https://alexandrdrozdfd.github.io/shelter/pages/main">Shelter</a>
+              </li>
+              <li>
+                <a href="https://github.com/AlexandrDrozdFD">Another code (github)</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </article>
+      <div class="rss"></div>
+    </section>
+    <section class="about-me">
+      <h2>About me</h1>
+      <p>Hello, my name is Sarvar and I'm 22. I am from Tashkent, Uzbekistan. In 2022 I've graduated from Moscow State University in Tashkent (Math and Informatics faculty).
+        In addition, I studied in Rolling Scopes School Stage#1 for Javascript Development course and Skillbox Online Platform in Web developer course. 
+        I have enough skills for junior web programmist and also I have high level of English. I'm glad to work in companies, where my skills are required!
+      </p>
+      <div class="underlined-grey"></div>
+      <article class="education">
+        <h2>Education</h2>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <span class="strong">09/2018</span> – <span class="strong">06/2022</span>
+            </div>
+            <div>
+              <span class="strong">MSU in Tashkent</span>
+            </div>
+          </div>
+          <div class="description__item2">
+            <span class="strong">Faculty:</span> Math and Informatics
+          </div>
+        </div>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <span class="strong">07/2020 – 10/2020</span>
+            </div>
+            <div>
+              <span class="strong">Skillbox</span>
+            </div>
+          </div>
+          <div class="description__item2">
+            <span class="strong">Course</span>:
+            Web development 
+          </div>
+        </div>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <span class="strong">03/2022 – 06/2022</span>
+            </div>
+            <div>
+              <span class="strong">Rolling Scopes School</span>
+            </div>
+          </div>
+          <div class="description__item2">
+            <span class="strong">Course</span>: Javascript Development
+          </div>
+        </div>
+      </article>
+      <article class="experience">
+        <h2>Experience</h2>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <span class="strong">07/2020 – 10/2020</span>
+            </div>
+            <div>
+              <span class="strong">Skillbox</span>
+            </div>
+          </div>
+          <div class="description__item2">
+            <b>Project name:</b> Lagoona Hotels<br />
+            <b>Role:</b> Student Front-end Developer<br />
+            <b>Tools & Technologies:</b> HTML5, CSS3, Figma, Git<br />
+          </div>
+        </div>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <span class="strong">09/2021 – 12/2021</span>
+            </div>
+            <div>
+              <span class="strong">Wise school in Tashkent</span>
+            </div>
+          </div>
+          <div class="description__item2">
+            <b>Role:</b> IT club teacher<br />
+            <b>Tools & Technologies:</b> HTML5, CSS3, JavaScript<br />
+          </div>
+        </div>
+        <div class="description">
+          <div class="description__item1">
+            <div>
+              <span class="strong">12/2021 – 02/2022</span>
+            </div>
+            <div>
+              <span class="strong">MSU in Tashkent</span>
+            </div>
+          </div>
+          <div class="description__item2">
+            <b>Project name:</b> Data science research<br />
+            <b>Role:</b> Student in Neural Networks course<br />
+            <b>Tools & Technologies:</b> Python, Tensorflow, Keras, Jupyter notebook, CIFAR-10<br />
+          </div>
+        </div>
+      </article>
+      <article class="referencies">
+        <h2>Code example</h2>
+        <pre>
+          <code>
+    for (let i = 0; i &lt; btns.length; i += 1) {
+      btns[i].addEventListener('mouseup', (e) => {
+        textarea.focus();
+        e.preventDefault();
+        if (btns[i].getAttribute('lowerCaseName') === 'Ctrl'  {
+          btns[i].classList.remove('active');
+        } else if (btns[i].getAttribute('lowerCaseName') === 'Tab') {
+          btns[i].classList.remove('active');
+        } else {
+          btns[i].classList.remove('active');
+        }
+          textarea.focus();
+      });
+    }          
+          </code>
+        </pre> 
+      </article>
+      <footer class="footer">
+        <nav class="footer__nav">
+          <ul class="footer__nav__list">
+            <li class="git-link">
+              <a href="https://github.com/AlexandrDrozdFD"> <i class="fab fa-github"></i></a>
+            </li>
+            <li class="youtube-link">
+              <a href="https://www.youtube.com/watch?v=92ktekH2Q8k">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="course-link">
+              <a href="https://rs.school/js"><i class="fab fa-js"></i></a>
+            </li>
+            <li class="year">
+              <span class="year-font">2022</span>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </section>
+  </main>
 </body>
+
 </html>
