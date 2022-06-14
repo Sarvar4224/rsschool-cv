@@ -33,6 +33,15 @@
     font-size: 18px;
     color: #f6f6f6;
   }
+
+  @media (max-width: 1000px) {
+    header nav ul {
+      margin-left: 50px;
+    }
+    header nav ul li a {
+      margin-left: 20px;
+    }
+  }
   .cv {
     max-width: 1024px;
     margin: auto;
