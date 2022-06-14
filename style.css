@@ -40,11 +40,15 @@
     box-shadow: 1px 81px 100px 5px rgba(0,0,0,0.49);
   }
   .header {
-    margin-bottom: 20px;
+    margin-top: -5px;
   }
   .photo {
     width: 100%;
     margin: 0;
+  }
+  .about h6 {
+    font-size: 1px;
+    margin-left: 3px;
   }
   .photo img {
     width: 100%;
