@@ -9,6 +9,9 @@
     padding: 2rem;
     background-color: #e6e2d4;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   .container {
     max-width: 1024px;
     margin: auto;
